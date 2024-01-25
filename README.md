@@ -4,7 +4,7 @@
 
   ### Sample Image
   
-![image](https://github.com/saurowankhade/ThalaforReason/assets/98818353/3b16b67b-5163-47cf-ba9e-efd7cb767e7c)
+_[![image](https://github.com/saurowankhade/ThalaforReason/assets/98818353/3b16b67b-5163-47cf-ba9e-efd7cb767e7c)](https://thalaforreason-swart.vercel.app/)_ 
 
 
  ## Getting Started 
