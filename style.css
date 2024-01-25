@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+:root{
+    --mainColroBackground: #0cf1ee25;
+    --mainImgBackground: url(media/bg.jpg);
+    --cardbgColor: white;
+}
+
+body{
+    background-image: var(--mainImgBackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    margin-top: 20px;
+}
+
+p a{
+    color: black;
+    cursor: pointer;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--mainColroBackground);
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: var(--cardbgColor);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(245, 245, 245, 0.439);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.form h2{
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 3px;
+
+}
+
+.form form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-top: 40px;
+}
+
+
+.form form input{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.form form button{
+    cursor: pointer;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.724);
+    color: whitesmoke;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+    z-index: -1; /* Place the video behind other content */
+  }
+
+  .heading{
+    z-index: 1; 
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  }
+
+  @media (max-width : 746px) {
+    .heading{
+        font-size: 50px;
+      }
+  }
+
+  
+  @media (max-width : 423px) {
+    .heading{
+        font-size: 35px;
+      }
+  }
+
+
+
+
