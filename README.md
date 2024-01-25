@@ -17,7 +17,6 @@ Project is open for contribution
 
 ## Credits
 + _[Noto Sans Font](https://fonts.google.com/specimen/Noto+Sans)_ from Google Fonts
-+ 
 
 ## Demo 
 
