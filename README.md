@@ -4,7 +4,7 @@
  ## Description 
  In input field you can enter anything 
  + if the lenght of you have entered is 7 -> THALA FOR A REASON
- + if you enter a number whose sume is 7 -> THALA FOR A REASON
+ + if you enter a number whose sum is 7 -> THALA FOR A REASON
  + if above condtion not happen -> Moye Moye (😅😉😉) 
 
   _[thalaforreason](https://thalaforreason-swart.vercel.app/)_ 
